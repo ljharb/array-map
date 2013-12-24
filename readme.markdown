@@ -1,6 +1,6 @@
 # array-map
 
-`[].map` for older browsers.
+`[].map(f)` for older browsers
 
 # example
 
