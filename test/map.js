@@ -40,13 +40,15 @@ test('elements and indexes', function (t) {
 });
 
 test('ignore holes', function (t) {
-    map(new Array(5), function (x) {
-        t.fail('stepped into a hole');
-    });
-    map(cripple(new Array(5)), function (x) {
-        t.fail('stepped into a hole');
-    });
-    t.end();
+    t.plan(2);
+    t.deepEqual(
+        map(new Array(5), function (x) { return x }),
+        []
+    );
+    t.deepEqual(
+        map(cripple(new Array(5)), function (x) { return x }),
+        []
+    );
 });
 
 test('sparse map', function (t) {
