@@ -2,6 +2,10 @@
 
 `[].map(f)` for older browsers
 
+[![testling badge](https://ci.testling.com/substack/array-map.png)](https://ci.testling.com/substack/array-map)
+
+[![build status](https://secure.travis-ci.org/substack/array-map.png)](http://travis-ci.org/substack/array-map)
+
 # example
 
 ``` js
