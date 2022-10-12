@@ -27,9 +27,9 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/substack/array-map.git"
+		"url": "git://github.com/ljharb/array-map.git"
 	},
-	"homepage": "https://github.com/substack/array-map",
+	"homepage": "https://github.com/ljharb/array-map",
 	"keywords": [
 		"array",
 		"map",
