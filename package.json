@@ -1,6 +1,6 @@
 {
 	"name": "array-map",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "`[].map(f)` for older browsers",
 	"main": "index.js",
 	"devDependencies": {
