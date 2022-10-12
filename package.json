@@ -1,56 +1,56 @@
 {
-  "name": "array-map",
-  "version": "0.0.0",
-  "description": "`[].map(f)` for older browsers",
-  "main": "index.js",
-  "devDependencies": {
-    "@ljharb/eslint-config": "^21.0.0",
-    "aud": "^2.0.1",
-    "eslint": "=8.8.0",
-    "tape": "^5.6.1"
-  },
-  "scripts": {
-    "lint": "eslint --ext=js,mjs .",
-    "pretest": "npm run lint",
-    "tests-only": "tape 'test/**/*.js'",
-    "test": "npm run tests-only",
-    "posttest": "aud --production"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/substack/array-map.git"
-  },
-  "homepage": "https://github.com/substack/array-map",
-  "keywords": [
-    "array",
-    "map",
-    "browser",
-    "es5",
-    "shim",
-    "ie6",
-    "ie7",
-    "ie8"
-  ],
-  "author": {
-    "name": "James Halliday",
-    "email": "mail@substack.net",
-    "url": "http://substack.net"
-  },
-  "license": "MIT",
-  "testling": {
-    "files": "test/*.js",
-    "browsers": [
-      "ie/6..latest",
-      "firefox/3.5",
-      "firefox/latest",
-      "chrome/5",
-      "chrome/latest",
-      "opera/12..latest",
-      "opera/next",
-      "safari/5.1..latest",
-      "ipad/6.0..latest",
-      "iphone/6.0..latest",
-      "android-browser/4.2..latest"
-    ]
-  }
+	"name": "array-map",
+	"version": "0.0.0",
+	"description": "`[].map(f)` for older browsers",
+	"main": "index.js",
+	"devDependencies": {
+		"@ljharb/eslint-config": "^21.0.0",
+		"aud": "^2.0.1",
+		"eslint": "=8.8.0",
+		"tape": "^5.6.1"
+	},
+	"scripts": {
+		"lint": "eslint --ext=js,mjs .",
+		"pretest": "npm run lint",
+		"tests-only": "tape 'test/**/*.js'",
+		"test": "npm run tests-only",
+		"posttest": "aud --production"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/substack/array-map.git"
+	},
+	"homepage": "https://github.com/substack/array-map",
+	"keywords": [
+		"array",
+		"map",
+		"browser",
+		"es5",
+		"shim",
+		"ie6",
+		"ie7",
+		"ie8"
+	],
+	"author": {
+		"name": "James Halliday",
+		"email": "mail@substack.net",
+		"url": "http://substack.net"
+	},
+	"license": "MIT",
+	"testling": {
+		"files": "test/*.js",
+		"browsers": [
+			"ie/6..latest",
+			"firefox/3.5",
+			"firefox/latest",
+			"chrome/5",
+			"chrome/latest",
+			"opera/12..latest",
+			"opera/next",
+			"safari/5.1..latest",
+			"ipad/6.0..latest",
+			"iphone/6.0..latest",
+			"android-browser/4.2..latest"
+		]
+	}
 }

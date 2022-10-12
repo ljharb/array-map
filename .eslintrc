@@ -7,7 +7,6 @@
     "array-bracket-newline": 0,
     "array-bracket-spacing": 0,
     "func-style": [2, "declaration"],
-    "indent": [2, 4],
   },
 
   "overrides": [
