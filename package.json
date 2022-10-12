@@ -4,10 +4,11 @@
   "description": "`[].map(f)` for older browsers",
   "main": "index.js",
   "devDependencies": {
-    "tape": "~2.3.2"
+    "tape": "^5.6.1"
   },
   "scripts": {
-    "test": "tape test/*.js"
+    "tests-only": "tape 'test/**/*.js'",
+    "test": "npm run tests-only"
   },
   "repository": {
     "type": "git",
@@ -34,9 +35,12 @@
     "files": "test/*.js",
     "browsers": [
       "ie/6..latest",
-      "firefox/3.5","firefox/latest",
-      "chrome/5","chrome/latest",
-      "opera/12..latest", "opera/next",
+      "firefox/3.5",
+      "firefox/latest",
+      "chrome/5",
+      "chrome/latest",
+      "opera/12..latest",
+      "opera/next",
       "safari/5.1..latest",
       "ipad/6.0..latest",
       "iphone/6.0..latest",
